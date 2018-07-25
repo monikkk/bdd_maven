@@ -31,7 +31,8 @@ public class StepDefn {
 	    //throw new PendingException();
 		String titleee=driver.getTitle();
 		//Assert.assertEquals("OrangrHRM", titleee);
-		System.out.println(titleee+"son");
+		System.out.println(titleee+"=========================================================");
+		driver.close();
 	}
 
 }
